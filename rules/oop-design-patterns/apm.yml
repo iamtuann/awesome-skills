@@ -1,0 +1,9 @@
+name: oop-design-patterns
+version: 1.0.0
+description: APM project for oop-design-patterns
+author: Tuan Nguyen
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}
