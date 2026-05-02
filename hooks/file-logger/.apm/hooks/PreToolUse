@@ -1,0 +1,12 @@
+#!/bin/bash
+# Logs all file operations to ~/cline-activity.log
+
+INPUT=$(cat)
+TOOL=$(echo "$INPUT" | jq -r '.preToolUse.toolName')
+FILE_PATH=$(echo "$INPUT" | jq -r '.preToolUse.parameters.path // "N/A"')
+
+# Log to file
+echo "$(date '+%H:%M:%S') - $TOOL: $FILE_PATH" >> ~/cline-activity.log
+
+# Always allow the operation
+echo '{"cancel":false}'

@@ -1,0 +1,9 @@
+name: file-logger
+version: 1.0.0
+description: APM project for file-logger
+author: Tuan Nguyen
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

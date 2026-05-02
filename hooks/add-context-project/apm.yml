@@ -1,0 +1,9 @@
+name: add-context-project
+version: 1.0.0
+description: APM project for add-context-project
+author: Tuan Nguyen
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}
