@@ -1,0 +1,9 @@
+name: ci-cd-pipeline
+version: 1.0.0
+description: APM project for ci-cd-pipeline
+author: Tuan Nguyen
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

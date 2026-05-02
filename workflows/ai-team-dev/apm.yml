@@ -1,0 +1,9 @@
+name: ai-team-dev
+version: 1.0.0
+description: APM project for ai-team-dev
+author: Tuan Nguyen
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}
